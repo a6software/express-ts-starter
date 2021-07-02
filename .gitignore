@@ -12,12 +12,9 @@ Desktop.ini
 .directory
 *~
 
-
 # npm
 node_modules
-package-lock.json
 *.gz
-
 
 # Benchmarking
 benchmarks/graphs
