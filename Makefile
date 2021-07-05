@@ -1,7 +1,7 @@
 APPS = src
 
 down:
-	docker-compose down
+	docker compose down
 .PHONY: down
 
 install:
@@ -9,7 +9,7 @@ install:
 .PHONY: install
 
 serve:
-	docker-compose up
+	docker compose up
 .PHONY: serve
 
 uninstall:
